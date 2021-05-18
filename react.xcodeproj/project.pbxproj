@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466D47CD26545C9D006B00DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D47CC26545C9D006B00DF /* AppDelegate.swift */; };
+		466D47CF26545C9D006B00DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D47CE26545C9D006B00DF /* SceneDelegate.swift */; };
+		466D47D126545C9D006B00DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D47D026545C9D006B00DF /* ViewController.swift */; };
+		466D47D426545C9D006B00DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466D47D226545C9D006B00DF /* Main.storyboard */; };
+		466D47D626545C9E006B00DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466D47D526545C9E006B00DF /* Assets.xcassets */; };
+		466D47D926545C9E006B00DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466D47D726545C9E006B00DF /* LaunchScreen.storyboard */; };
+		466D47E426545C9E006B00DF /* reactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D47E326545C9E006B00DF /* reactTests.swift */; };
+		466D47EF26545C9E006B00DF /* reactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D47EE26545C9E006B00DF /* reactUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466D47E026545C9E006B00DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466D47C126545C9D006B00DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466D47C826545C9D006B00DF;
+			remoteInfo = react;
+		};
+		466D47EB26545C9E006B00DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466D47C126545C9D006B00DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466D47C826545C9D006B00DF;
+			remoteInfo = react;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466D47C926545C9D006B00DF /* react.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466D47CC26545C9D006B00DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		466D47CE26545C9D006B00DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		466D47D026545C9D006B00DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		466D47D326545C9D006B00DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466D47D526545C9E006B00DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466D47D826545C9E006B00DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		466D47DA26545C9E006B00DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466D47DF26545C9E006B00DF /* reactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466D47E326545C9E006B00DF /* reactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactTests.swift; sourceTree = "<group>"; };
+		466D47E526545C9E006B00DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466D47EA26545C9E006B00DF /* reactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466D47EE26545C9E006B00DF /* reactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactUITests.swift; sourceTree = "<group>"; };
+		466D47F026545C9E006B00DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466D47C626545C9D006B00DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466D47DC26545C9E006B00DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466D47E726545C9E006B00DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466D47C026545C9D006B00DF = {
+			isa = PBXGroup;
+			children = (
+				466D47CB26545C9D006B00DF /* react */,
+				466D47E226545C9E006B00DF /* reactTests */,
+				466D47ED26545C9E006B00DF /* reactUITests */,
+				466D47CA26545C9D006B00DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466D47CA26545C9D006B00DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466D47C926545C9D006B00DF /* react.app */,
+				466D47DF26545C9E006B00DF /* reactTests.xctest */,
+				466D47EA26545C9E006B00DF /* reactUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466D47CB26545C9D006B00DF /* react */ = {
+			isa = PBXGroup;
+			children = (
+				466D47CC26545C9D006B00DF /* AppDelegate.swift */,
+				466D47CE26545C9D006B00DF /* SceneDelegate.swift */,
+				466D47D026545C9D006B00DF /* ViewController.swift */,
+				466D47D226545C9D006B00DF /* Main.storyboard */,
+				466D47D526545C9E006B00DF /* Assets.xcassets */,
+				466D47D726545C9E006B00DF /* LaunchScreen.storyboard */,
+				466D47DA26545C9E006B00DF /* Info.plist */,
+			);
+			path = react;
+			sourceTree = "<group>";
+		};
+		466D47E226545C9E006B00DF /* reactTests */ = {
+			isa = PBXGroup;
+			children = (
+				466D47E326545C9E006B00DF /* reactTests.swift */,
+				466D47E526545C9E006B00DF /* Info.plist */,
+			);
+			path = reactTests;
+			sourceTree = "<group>";
+		};
+		466D47ED26545C9E006B00DF /* reactUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466D47EE26545C9E006B00DF /* reactUITests.swift */,
+				466D47F026545C9E006B00DF /* Info.plist */,
+			);
+			path = reactUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466D47C826545C9D006B00DF /* react */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466D47F326545C9E006B00DF /* Build configuration list for PBXNativeTarget "react" */;
+			buildPhases = (
+				466D47C526545C9D006B00DF /* Sources */,
+				466D47C626545C9D006B00DF /* Frameworks */,
+				466D47C726545C9D006B00DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = react;
+			productName = react;
+			productReference = 466D47C926545C9D006B00DF /* react.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466D47DE26545C9E006B00DF /* reactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466D47F626545C9E006B00DF /* Build configuration list for PBXNativeTarget "reactTests" */;
+			buildPhases = (
+				466D47DB26545C9E006B00DF /* Sources */,
+				466D47DC26545C9E006B00DF /* Frameworks */,
+				466D47DD26545C9E006B00DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466D47E126545C9E006B00DF /* PBXTargetDependency */,
+			);
+			name = reactTests;
+			productName = reactTests;
+			productReference = 466D47DF26545C9E006B00DF /* reactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		466D47E926545C9E006B00DF /* reactUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466D47F926545C9E006B00DF /* Build configuration list for PBXNativeTarget "reactUITests" */;
+			buildPhases = (
+				466D47E626545C9E006B00DF /* Sources */,
+				466D47E726545C9E006B00DF /* Frameworks */,
+				466D47E826545C9E006B00DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466D47EC26545C9E006B00DF /* PBXTargetDependency */,
+			);
+			name = reactUITests;
+			productName = reactUITests;
+			productReference = 466D47EA26545C9E006B00DF /* reactUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466D47C126545C9D006B00DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Software Engineering";
+				TargetAttributes = {
+					466D47C826545C9D006B00DF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					466D47DE26545C9E006B00DF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 466D47C826545C9D006B00DF;
+					};
+					466D47E926545C9E006B00DF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 466D47C826545C9D006B00DF;
+					};
+				};
+			};
+			buildConfigurationList = 466D47C426545C9D006B00DF /* Build configuration list for PBXProject "react" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466D47C026545C9D006B00DF;
+			productRefGroup = 466D47CA26545C9D006B00DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466D47C826545C9D006B00DF /* react */,
+				466D47DE26545C9E006B00DF /* reactTests */,
+				466D47E926545C9E006B00DF /* reactUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466D47C726545C9D006B00DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466D47D926545C9E006B00DF /* LaunchScreen.storyboard in Resources */,
+				466D47D626545C9E006B00DF /* Assets.xcassets in Resources */,
+				466D47D426545C9D006B00DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466D47DD26545C9E006B00DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466D47E826545C9E006B00DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466D47C526545C9D006B00DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466D47D126545C9D006B00DF /* ViewController.swift in Sources */,
+				466D47CD26545C9D006B00DF /* AppDelegate.swift in Sources */,
+				466D47CF26545C9D006B00DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466D47DB26545C9E006B00DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466D47E426545C9E006B00DF /* reactTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466D47E626545C9E006B00DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466D47EF26545C9E006B00DF /* reactUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466D47E126545C9E006B00DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466D47C826545C9D006B00DF /* react */;
+			targetProxy = 466D47E026545C9E006B00DF /* PBXContainerItemProxy */;
+		};
+		466D47EC26545C9E006B00DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466D47C826545C9D006B00DF /* react */;
+			targetProxy = 466D47EB26545C9E006B00DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466D47D226545C9D006B00DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466D47D326545C9D006B00DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		466D47D726545C9E006B00DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466D47D826545C9E006B00DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466D47F126545C9E006B00DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		466D47F226545C9E006B00DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466D47F426545C9E006B00DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27FMXKVL48;
+				INFOPLIST_FILE = react/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swen.react;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		466D47F526545C9E006B00DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27FMXKVL48;
+				INFOPLIST_FILE = react/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swen.react;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		466D47F726545C9E006B00DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27FMXKVL48;
+				INFOPLIST_FILE = reactTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swen.reactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/react.app/react";
+			};
+			name = Debug;
+		};
+		466D47F826545C9E006B00DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27FMXKVL48;
+				INFOPLIST_FILE = reactTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swen.reactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/react.app/react";
+			};
+			name = Release;
+		};
+		466D47FA26545C9E006B00DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27FMXKVL48;
+				INFOPLIST_FILE = reactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swen.reactUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = react;
+			};
+			name = Debug;
+		};
+		466D47FB26545C9E006B00DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27FMXKVL48;
+				INFOPLIST_FILE = reactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swen.reactUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = react;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466D47C426545C9D006B00DF /* Build configuration list for PBXProject "react" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466D47F126545C9E006B00DF /* Debug */,
+				466D47F226545C9E006B00DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466D47F326545C9E006B00DF /* Build configuration list for PBXNativeTarget "react" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466D47F426545C9E006B00DF /* Debug */,
+				466D47F526545C9E006B00DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466D47F626545C9E006B00DF /* Build configuration list for PBXNativeTarget "reactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466D47F726545C9E006B00DF /* Debug */,
+				466D47F826545C9E006B00DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466D47F926545C9E006B00DF /* Build configuration list for PBXNativeTarget "reactUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466D47FA26545C9E006B00DF /* Debug */,
+				466D47FB26545C9E006B00DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466D47C126545C9D006B00DF /* Project object */;
+}
